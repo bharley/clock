@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="theme-color" content="#242424">
+  <link rel="icon" href="/favicon.ico" sizes="48x48">
+  <link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon-180x180.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Precision Clock</title>
+</head>
+
+<body>
+  <div id="app">
+    <div id="clock">00:00:00</div>
+    <div class="timezone-selector">
+      <button id="tz-current" class="active">Current</button>
+      <button id="tz-gmt">GMT</button>
+      <button id="tz-pacific">Pacific</button>
+    </div>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
