@@ -12,7 +12,7 @@ export default defineConfig({
       short_name: 'Clock',
       description: 'Accurate clock for checking the time down to the second.',
       background_color: '#000000',
-      theme_color: '#18191b',
+      theme_color: '#242424',
 
       icons: [{
         src: 'pwa-64x64.png',
