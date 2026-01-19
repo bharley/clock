@@ -5,7 +5,7 @@ import { defineConfig } from 'vite'
 export default defineConfig({
   plugins: [VitePWA({
     registerType: 'autoUpdate',
-    injectRegister: false,
+    injectRegister: 'auto',
 
     manifest: {
       name: 'Precision Clock',
